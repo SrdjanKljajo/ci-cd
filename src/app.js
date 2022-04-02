@@ -10,6 +10,6 @@ app.get("/test/new", (_req, res) =>  {
 })
 
 app.get("/test/srki", (_req, res) =>  {
-  res.status(200).send("Hello srki world")
+  res.status(200).send("Hello srk world")
 })
 module.exports = app;
