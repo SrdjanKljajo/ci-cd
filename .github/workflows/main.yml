@@ -23,6 +23,6 @@ jobs:
      - uses: actions/checkout@v3
      - uses: actions/setup-node@v3
        with:
-        node-version: '16'
+        node-version: '114'
          - run: npm install
          - run: npm test
