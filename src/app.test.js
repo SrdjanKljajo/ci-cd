@@ -8,4 +8,10 @@ describe("/test endpoint", () => {
         expect(response.status).toBe(200)
         expect(response.text).toBe("Hello world");
     })
+
+    it("should return a new response", async () => {
+        const response = await request.get("/test/new")
+        expect(response.status).toBe(200)
+        expect(response.text).toBe("Hello world");
+    })
 })
