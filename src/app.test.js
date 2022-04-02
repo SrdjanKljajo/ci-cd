@@ -12,6 +12,6 @@ describe("/test endpoint", () => {
     it("should return a new response", async () => {
         const response = await request.get("/test/new")
         expect(response.status).toBe(200)
-        expect(response.text).toBe("Hello world");
+        expect(response.text).toBe("Hello new world");
     })
 })
